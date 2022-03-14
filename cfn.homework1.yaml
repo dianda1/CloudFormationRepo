@@ -1,0 +1,19 @@
+---
+AWSTemplateFormatVersion: 2010-09-09
+Description: Reference Architecture to Deploy a linuxserver EC2 instance using CloudFormation.
+Metadata:
+  Authors:
+    Description: Dieudonne Dianda (dieso87@gmail.com)
+
+Resources:
+  MyEc2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      AvailabilityZone: us-west-1a
+      ImageId: ami-0573b70afecda915d 
+      InstanceType: t2.micro
+      Tags:
+       - Key: "Name"    
+         Value: "IT-EC2"
+         Key: "Name"
+         Value: Managment-EC2
