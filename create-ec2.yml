@@ -15,6 +15,6 @@ Resources:
       Tags:
        - Key: "Name"    
          Value: "IT-EC2"
-         Key: "Name"
+       - Key: "Name"
          Value: Managment-EC2
          
