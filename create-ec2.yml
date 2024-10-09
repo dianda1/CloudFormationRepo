@@ -14,7 +14,7 @@ Resources:
       InstanceType: t2.micro
       Tags:
        - Key: "Name"    
-         Value: "IT-EC2"
+         Value: "jenkins instance"
        - Key: "Name"
-         Value: Managment-EC2
+         Value: "linux instance"
          
